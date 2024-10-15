@@ -1,0 +1,1307 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grow Hair</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <script src="assets/js/alpine.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/output.css">
+</head>
+
+<body>
+    <div class="loader-wrapper fixed size-full z-50 bg-black">
+        <div class="loader"></div>
+    </div>
+    <header class="sticky 2xl:static top-0 bg-white z-20">
+        <div class="container">
+            <div class="hidden 2xl:flex items-center">
+                <div class="w-7/12">
+                    <div class="flex gap-5 text-xs border-b border-black border-opacity-20 py-6">
+                        <a href="#" class="flex items-center gap-3">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_711)">
+                                    <path
+                                        d="M7.9718 16.0053L7.50709 15.6069C6.86643 15.0705 1.27246 10.2393 1.27246 6.70545C1.27246 3.00551 4.27187 0.00610352 7.9718 0.00610352C11.6717 0.00610352 14.6711 3.00551 14.6711 6.70545C14.6711 10.2394 9.07718 15.0705 8.43918 15.6096L7.9718 16.0053ZM7.9718 1.4547C5.07327 1.45798 2.72437 3.80689 2.72109 6.70542C2.72109 8.92548 6.16271 12.472 7.9718 14.0952C9.78093 12.4713 13.2225 8.92279 13.2225 6.70542C13.2192 3.80689 10.8704 1.45801 7.9718 1.4547Z"
+                                        fill="black" />
+                                    <path
+                                        d="M7.97197 9.36093C6.50534 9.36093 5.31641 8.17199 5.31641 6.70537C5.31641 5.23874 6.50534 4.0498 7.97197 4.0498C9.43859 4.0498 10.6275 5.23874 10.6275 6.70537C10.6275 8.17199 9.43862 9.36093 7.97197 9.36093ZM7.97197 5.37755C7.23866 5.37755 6.64419 5.97202 6.64419 6.70534C6.64419 7.43865 7.23866 8.03312 7.97197 8.03312C8.70528 8.03312 9.29975 7.43865 9.29975 6.70534C9.29975 5.97202 8.70531 5.37755 7.97197 5.37755Z"
+                                        fill="black" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_258_711">
+                                        <rect width="16" height="16" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span>9897 St Vincet place, Glasgow, 25103</span>
+                        </a>
+                        <div class="vr border-r border-black border-opacity-50 py-3"></div>
+                        <a href="tel:+91-1800-123-4567" class="flex items-center gap-3">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_717)">
+                                    <path
+                                        d="M9.4668 10.8407C7.52572 10.0188 5.98217 8.47164 5.1648 6.52867L7.43146 4.258L3.25813 0.0813333L1.14413 2.19467C0.777464 2.56343 0.487562 3.00124 0.291196 3.48277C0.0948312 3.9643 -0.00409881 4.47999 0.000130068 5C0.000130068 9.832 6.16813 16 11.0001 16C11.5201 16.0045 12.0358 15.9058 12.5172 15.7094C12.9987 15.513 13.4364 15.2229 13.8048 14.856L15.9188 12.742L11.7421 8.56533L9.4668 10.8407ZM12.8615 13.9133C12.6166 14.156 12.326 14.3476 12.0065 14.4769C11.6869 14.6063 11.3448 14.6708 11.0001 14.6667C6.8448 14.6667 1.33346 9.15533 1.33346 5C1.32954 4.65522 1.39411 4.31309 1.52342 3.99346C1.65274 3.67383 1.84423 3.38305 2.0868 3.138L3.25813 1.96667L5.54946 4.258L3.5928 6.21467L3.75613 6.624C4.23696 7.91021 4.98864 9.07804 5.96023 10.0484C6.93182 11.0187 8.10063 11.7688 9.38746 12.248L9.79146 12.402L11.7421 10.4507L14.0335 12.742L12.8615 13.9133ZM9.33346 1.33333V0C11.101 0.00194106 12.7955 0.704943 14.0454 1.95477C15.2952 3.20459 15.9982 4.89915 16.0001 6.66667H14.6668C14.6652 5.25267 14.1028 3.89703 13.1029 2.89718C12.1031 1.89733 10.7475 1.33492 9.33346 1.33333ZM9.33346 4V2.66667C10.394 2.66773 11.4108 3.08949 12.1607 3.83941C12.9106 4.58933 13.3324 5.60613 13.3335 6.66667H12.0001C12.0001 5.95942 11.7192 5.28115 11.2191 4.78105C10.719 4.28095 10.0407 4 9.33346 4Z"
+                                        fill="black" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_258_717">
+                                        <rect width="16" height="16" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span>+91-1800-123-4567</span>
+                        </a>
+                    </div>
+                    <ul class="flex gap-[30px] py-6">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <a href="index.html" class="w-3/12">
+                    <img src="assets/images/logo-black.svg" alt="Logo" class="mx-auto w-[183px]">
+                </a>
+                <div class="w-7/12 text-right">
+                    <div class="flex gap-8 items-center border-b border-black border-opacity-20 py-5 justify-end">
+                        <form class="flex gap-3 items-center bg-light p-2 pl-3">
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_258_725)">
+                                    <path
+                                        d="M15.9999 15.0574L11.8252 10.8828C12.9096 9.5565 13.4428 7.86416 13.3144 6.15581C13.1861 4.44745 12.406 2.85379 11.1356 1.70445C9.86516 0.555106 8.20158 -0.0619731 6.48895 -0.0191518C4.77632 0.0236694 3.14566 0.723114 1.93426 1.93451C0.72287 3.1459 0.0234252 4.77656 -0.019396 6.48919C-0.0622172 8.20183 0.554862 9.8654 1.7042 11.1358C2.85354 12.4062 4.44721 13.1863 6.15556 13.3147C7.86392 13.443 9.55625 12.9098 10.8825 11.8254L15.0572 16.0001L15.9999 15.0574ZM6.66652 12.0001C5.61169 12.0001 4.58054 11.6873 3.70348 11.1013C2.82642 10.5152 2.14283 9.68228 1.73916 8.70774C1.3355 7.7332 1.22988 6.66085 1.43567 5.62628C1.64145 4.59172 2.14941 3.64141 2.89529 2.89553C3.64117 2.14965 4.59147 1.6417 5.62604 1.43591C6.6606 1.23012 7.73296 1.33574 8.7075 1.73941C9.68204 2.14308 10.515 2.82666 11.101 3.70372C11.6871 4.58079 11.9999 5.61193 11.9999 6.66677C11.9983 8.08077 11.4359 9.4364 10.436 10.4362C9.43615 11.4361 8.08052 11.9985 6.66652 12.0001Z"
+                                        fill="black" fill-opacity="0.3" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_258_725">
+                                        <rect width="16" height="16" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <input type="search" placeholder="Search any terms here.."
+                                class="placeholder:text-xs text-black text-opacity-50 bg-transparent outline-0 min-w-64">
+                        </form>
+                        <ul class="flex gap-4 items-center">
+                            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                        </ul>
+                    </div>
+                    <button
+                        class="bg-black text-white text-sm uppercase p-4 leading-4 border-black border px-5 my-4">Free
+                        Consultation</button>
+                </div>
+            </div>
+            <div class="flex justify-between items-center py-2 2xl:hidden">
+                <div>
+                    <img src="assets/images/logo-black.svg" alt="Logo" class="mx-auto w-[183px]">
+                </div>
+                <ul class="hidden lg:flex gap-4">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="flex gap-3">
+                    <button
+                        class="hidden sm:inline-block bg-black text-white text-sm uppercase p-4 leading-4 border-black border px-5">Free
+                        Consultation</button>
+                    <div class="flex justify-center">
+                        <div x-data="{
+                                open: false,
+                                toggle() {
+                                    if (this.open) {
+                                        return this.close()
+                                    }
+                    
+                                    this.$refs.button.focus()
+                    
+                                    this.open = true
+                                },
+                                close(focusAfter) {
+                                    if (! this.open) return
+                    
+                                    this.open = false
+                    
+                                    focusAfter && focusAfter.focus()
+                                }
+                            }" x-on:keydown.escape.prevent.stop="close($refs.button)"
+                            x-on:focusin.window="! $refs.panel.contains($event.target) && close()"
+                            x-id="['dropdown-button']" class="relative">
+                            <button x-ref="button" x-on:click="toggle()" :aria-expanded="open"
+                                :aria-controls="$id('dropdown-button')" type="button"
+                                class="flex items-center gap-2 bg-light p-4 leading-4 border border-light">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+                            <div x-ref="panel" x-show="open" x-transition.origin.top.left
+                                x-on:click.outside="close($refs.button)" :id="$id('dropdown-button')"
+                                style="display: none;" class="absolute right-0 mt-4 w-72 bg-light p-5 grid gap-5">
+                                <ul class="grid gap-3 lg:hidden">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about-us.html">About Us</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="blog.html">Blog</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                                <form class="flex gap-3 items-center bg-white p-2 pl-3">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_258_725)">
+                                            <path
+                                                d="M15.9999 15.0574L11.8252 10.8828C12.9096 9.5565 13.4428 7.86416 13.3144 6.15581C13.1861 4.44745 12.406 2.85379 11.1356 1.70445C9.86516 0.555106 8.20158 -0.0619731 6.48895 -0.0191518C4.77632 0.0236694 3.14566 0.723114 1.93426 1.93451C0.72287 3.1459 0.0234252 4.77656 -0.019396 6.48919C-0.0622172 8.20183 0.554862 9.8654 1.7042 11.1358C2.85354 12.4062 4.44721 13.1863 6.15556 13.3147C7.86392 13.443 9.55625 12.9098 10.8825 11.8254L15.0572 16.0001L15.9999 15.0574ZM6.66652 12.0001C5.61169 12.0001 4.58054 11.6873 3.70348 11.1013C2.82642 10.5152 2.14283 9.68228 1.73916 8.70774C1.3355 7.7332 1.22988 6.66085 1.43567 5.62628C1.64145 4.59172 2.14941 3.64141 2.89529 2.89553C3.64117 2.14965 4.59147 1.6417 5.62604 1.43591C6.6606 1.23012 7.73296 1.33574 8.7075 1.73941C9.68204 2.14308 10.515 2.82666 11.101 3.70372C11.6871 4.58079 11.9999 5.61193 11.9999 6.66677C11.9983 8.08077 11.4359 9.4364 10.436 10.4362C9.43615 11.4361 8.08052 11.9985 6.66652 12.0001Z"
+                                                fill="black" fill-opacity="0.3" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_258_725">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    <input type="search" placeholder="Search any terms here.."
+                                        class="placeholder:text-xs text-black text-opacity-50 bg-transparent outline-0">
+                                </form>
+                                <ul class="flex gap-4 items-center">
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                                </ul>
+                                <button
+                                    class="bg-black text-white text-sm uppercase p-4 leading-4 border-black border px-5 sm:hidden">Free
+                                    Consultation</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hidden 2xl:sticky topbar top-0 bg-white z-20 py-2 shadow">
+        <div class="container">
+            <div class="flex justify-between">
+                <div>
+                    <img src="assets/images/logo-black.svg" alt="Logo" class="mx-auto w-[183px]">
+                </div>
+                <ul class="flex items-center gap-4">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="flex items-center">
+                    <button class="bg-black text-white text-sm uppercase p-4 leading-4 border-black border px-5">
+                        Free Consultation
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <section class="page-title text-white bg-props py-10 lg:py-20 3xl:py-[138px]">
+            <div class="container">
+                <div class="flex flex-col items-center gap-5 text-center">
+                    <span class="bg-white bg-opacity-10 px-3 py-2 text-xl inline-block">
+                        Home / Services / Hair Transplant
+                    </span>
+                    <h1 class="text-3xl lg:text-4xl 3xl:text-5xl font-semibold uppercase text-center">
+                        KNOW WHAT FACILITIES <br> WE HAVE
+                    </h1>
+                    <p class="text-lg">
+                        Qurabitur suscipit nulla neque, ut laor eet erat sodales vel.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="flex flex-col lg:flex-row gap-[30px] py-10">
+                    <div class="lg:w-6/12 xl:w-7/12 3xl:w-8/12">
+                        <div class="3xl:py-[100px]">
+                            <div>
+                                <img src="assets/images/hair-trans-img.png" alt="Hair Transplant Image">
+                            </div>
+                            <div>
+                                <h3 class="text-3xl lg:ext-4xl 3xl:text-5xl font-medium mt-9 mb-4">Hair Transplant</h3>
+                                <p class="text-lg text-dark text-opacity-50">
+                                    Dui accumsan sit amet nulla. In tellus integer feugiat scelerisque varius morbi enim
+                                    nunc
+                                    faucibus. Integer enim neque volutpat ac tincidunt vitae. Viverra nibh cras pulvinar
+                                    mattis
+                                    nunc sed blandit. Urna molestie at elementum eu. At lectus urna duis convallis
+                                    convallis.
+                                    Purus in mollis nunc sed id semper. Cras pulvinar mattis nunc sed blandit libero
+                                    volutpat.
+                                    Ultrices vitae auctor eu augue ut lectus.
+                                </p>
+                                <div class="bg-light p-3 sm:p-[30px] border-l-8 border-black my-10">
+                                    <p class="text-xl">
+                                        “Proactively envisioned multimedia based expertise and cross-media growth
+                                        strategies.
+                                        Seamlessly visualize quality intellectual capital without superior.”
+                                    </p>
+                                </div>
+                                <p class="text-lg text-dark text-opacity-50">
+                                    Diam vulputate ut pharetra sit amet aliquam id diam. Aenean sed adipiscing diam
+                                    donec
+                                    adipiscing tristique risus nec. Eget lorem dolor sed viverra. Odio euismod lacinia
+                                    at
+                                    quis
+                                    risus sed vulputate odio ut. Suspendisse interdum consectetur libero id faucibus
+                                    nisl.
+                                </p>
+                            </div>
+                            <div class="my-[50px]">
+                                <h4 class="text-3xl font-medium mb-5">Working Challenge</h4>
+                                <div class="flex flex-col xl:flex-row gap-[30px]">
+                                    <div>
+                                        <img src="assets/images/challenge.png" alt="Challenge Image">
+                                    </div>
+                                    <div class="flex flex-col gap-5 justify-center">
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                    fill="#252525" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1247 19.6559 14.7346C19.6559 17.1247 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86288C18.5733 5.86288 16.2113 3.50084 16.2113 0.576416C16.2113 3.50084 13.8492 5.86288 10.9248 5.86288C13.8492 5.86288 16.2113 8.22492 16.2113 11.1494C16.2113 8.22492 18.5733 5.86288 21.4977 5.86288Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <span class="text-[17px]">Document the short and long term goals.</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                    fill="#252525" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1247 19.6559 14.7346C19.6559 17.1247 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86288C18.5733 5.86288 16.2113 3.50084 16.2113 0.576416C16.2113 3.50084 13.8492 5.86288 10.9248 5.86288C13.8492 5.86288 16.2113 8.22492 16.2113 11.1494C16.2113 8.22492 18.5733 5.86288 21.4977 5.86288Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <span class="text-[17px]">Automated development pipelines.</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                    fill="#252525" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1247 19.6559 14.7346C19.6559 17.1247 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86288C18.5733 5.86288 16.2113 3.50084 16.2113 0.576416C16.2113 3.50084 13.8492 5.86288 10.9248 5.86288C13.8492 5.86288 16.2113 8.22492 16.2113 11.1494C16.2113 8.22492 18.5733 5.86288 21.4977 5.86288Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <span class="text-[17px]">Objectively innovate empowered.</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                    fill="#252525" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1247 19.6559 14.7346C19.6559 17.1247 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86288C18.5733 5.86288 16.2113 3.50084 16.2113 0.576416C16.2113 3.50084 13.8492 5.86288 10.9248 5.86288C13.8492 5.86288 16.2113 8.22492 16.2113 11.1494C16.2113 8.22492 18.5733 5.86288 21.4977 5.86288Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <span class="text-[17px]">Phosfluorescently engage worldwide.</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-[50px]">
+                                <h4 class="text-3xl font-medium mb-5">Benefits With Our Service</h4>
+                                <div class="flex flex-col xl:flex-row gap-[30px]">
+                                    <div class="bg-light p-[30px] border-l-8 border-black">
+                                        <h5 class="text-xl font-medium">Flexible Solutions</h5>
+                                        <p class="text-sm">
+                                            “Proactively envisioned multimedia based expertise and cross-media growth
+                                            strategies.
+                                        </p>
+                                    </div>
+                                    <div class="bg-light p-[30px] border-l-8 border-black">
+                                        <h5 class="text-xl font-medium">100% Gurented Result</h5>
+                                        <p class="text-sm">
+                                            “Proactively envisioned multimedia based expertise and cross-media growth
+                                            strategies.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="my-[50px]">
+                                <h4 class="text-3xl font-medium mb-5">Questions About Service</h4>
+                                <div x-data="{selected:1}">
+                                    <ul class="shadow-box grid gap-[30px]">
+                                        <li class="relative bg-light">
+                                            <button type="button" class="w-full p-6 text-left text-xl font-[prompt]"
+                                                @click="selected !== 1 ? selected = 1 : selected = null">
+                                                <div class="flex items-center justify-between">
+                                                    <span>01 What is hair transplant?</span>
+                                                    <span
+                                                        x-bind:style="selected == 1 ? 'display:none': 'display:block'">
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M17 12C17 12.2652 16.8946 12.5196 16.7071 12.7071C16.5196 12.8946 16.2652 13 16 13H13V16C13 16.2652 12.8946 16.5196 12.7071 16.7071C12.5196 16.8946 12.2652 17 12 17C11.7348 17 11.4804 16.8946 11.2929 16.7071C11.1054 16.5196 11 16.2652 11 16V13H8C7.73478 13 7.48043 12.8946 7.29289 12.7071C7.10536 12.5196 7 12.2652 7 12C7 11.7348 7.10536 11.4804 7.29289 11.2929C7.48043 11.1054 7.73478 11 8 11H11V8C11 7.73478 11.1054 7.48043 11.2929 7.29289C11.4804 7.10536 11.7348 7 12 7C12.2652 7 12.5196 7.10536 12.7071 7.29289C12.8946 7.48043 13 7.73478 13 8V11H16C16.2652 11 16.5196 11.1054 16.7071 11.2929C16.8946 11.4804 17 11.7348 17 12ZM24 5V19C24 21.757 21.757 24 19 24H5C2.243 24 0 21.757 0 19V5C0 2.243 2.243 0 5 0H19C21.757 0 24 2.243 24 5ZM22 5C22 3.346 20.654 2 19 2H5C3.346 2 2 3.346 2 5V19C2 20.654 3.346 22 5 22H19C20.654 22 22 20.654 22 19V5Z"
+                                                                fill="black" />
+                                                        </svg>
+                                                    </span>
+                                                    <span
+                                                        x-bind:style="selected == 1 ? 'display:block': 'display:none'">
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M17 12C17 12.2652 16.8946 12.5196 16.7071 12.7071C16.5196 12.8946 16.2652 13 16 13H8C7.73478 13 7.48043 12.8946 7.29289 12.7071C7.10536 12.5196 7 12.2652 7 12C7 11.7348 7.10536 11.4804 7.29289 11.2929C7.48043 11.1054 7.73478 11 8 11H16C16.2652 11 16.5196 11.1054 16.7071 11.2929C16.8946 11.4804 17 11.7348 17 12ZM24 5V19C24 21.757 21.757 24 19 24H5C2.243 24 0 21.757 0 19V5C0 2.243 2.243 0 5 0H19C21.757 0 24 2.243 24 5ZM22 5C22 3.346 20.654 2 19 2H5C3.346 2 2 3.346 2 5V19C2 20.654 3.346 22 5 22H19C20.654 22 22 20.654 22 19V12V5Z"
+                                                                fill="#252525" />
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                            </button>
+                                            <div class="relative overflow-hidden transition-all max-h-0 duration-700"
+                                                x-ref="container1"
+                                                x-bind:style="selected == 1 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+                                                <div class="p-6 border-t border-dark border-opacity-20">
+                                                    <p>
+                                                        Podcasting operational change management inside of workflows to
+                                                        establish a framework. Taking seamless key performance
+                                                        indicators
+                                                        offline to maximise the long tail.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="relative bg-light">
+                                            <button type="button" class="w-full p-6 text-left text-xl font-[prompt]"
+                                                @click="selected !== 2 ? selected = 2 : selected = null">
+                                                <div class="flex items-center justify-between">
+                                                    <span>02 How much time take for hair transplant?</span>
+                                                    <span
+                                                        x-bind:style="selected == 2 ? 'display:none': 'display:block'">
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M17 12C17 12.2652 16.8946 12.5196 16.7071 12.7071C16.5196 12.8946 16.2652 13 16 13H13V16C13 16.2652 12.8946 16.5196 12.7071 16.7071C12.5196 16.8946 12.2652 17 12 17C11.7348 17 11.4804 16.8946 11.2929 16.7071C11.1054 16.5196 11 16.2652 11 16V13H8C7.73478 13 7.48043 12.8946 7.29289 12.7071C7.10536 12.5196 7 12.2652 7 12C7 11.7348 7.10536 11.4804 7.29289 11.2929C7.48043 11.1054 7.73478 11 8 11H11V8C11 7.73478 11.1054 7.48043 11.2929 7.29289C11.4804 7.10536 11.7348 7 12 7C12.2652 7 12.5196 7.10536 12.7071 7.29289C12.8946 7.48043 13 7.73478 13 8V11H16C16.2652 11 16.5196 11.1054 16.7071 11.2929C16.8946 11.4804 17 11.7348 17 12ZM24 5V19C24 21.757 21.757 24 19 24H5C2.243 24 0 21.757 0 19V5C0 2.243 2.243 0 5 0H19C21.757 0 24 2.243 24 5ZM22 5C22 3.346 20.654 2 19 2H5C3.346 2 2 3.346 2 5V19C2 20.654 3.346 22 5 22H19C20.654 22 22 20.654 22 19V5Z"
+                                                                fill="black" />
+                                                        </svg>
+                                                    </span>
+                                                    <span
+                                                        x-bind:style="selected == 2 ? 'display:block': 'display:none'">
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M17 12C17 12.2652 16.8946 12.5196 16.7071 12.7071C16.5196 12.8946 16.2652 13 16 13H8C7.73478 13 7.48043 12.8946 7.29289 12.7071C7.10536 12.5196 7 12.2652 7 12C7 11.7348 7.10536 11.4804 7.29289 11.2929C7.48043 11.1054 7.73478 11 8 11H16C16.2652 11 16.5196 11.1054 16.7071 11.2929C16.8946 11.4804 17 11.7348 17 12ZM24 5V19C24 21.757 21.757 24 19 24H5C2.243 24 0 21.757 0 19V5C0 2.243 2.243 0 5 0H19C21.757 0 24 2.243 24 5ZM22 5C22 3.346 20.654 2 19 2H5C3.346 2 2 3.346 2 5V19C2 20.654 3.346 22 5 22H19C20.654 22 22 20.654 22 19V12V5Z"
+                                                                fill="#252525" />
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                            </button>
+                                            <div class="relative overflow-hidden transition-all max-h-0 duration-700"
+                                                x-ref="container1"
+                                                x-bind:style="selected == 2 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+                                                <div class="p-6 border-t border-dark border-opacity-20">
+                                                    <p>
+                                                        Podcasting operational change management inside of workflows to
+                                                        establish a framework. Taking seamless key performance
+                                                        indicators
+                                                        offline to maximise the long tail.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="relative bg-light">
+                                            <button type="button" class="w-full p-6 text-left text-xl font-[prompt]"
+                                                @click="selected !== 3 ? selected = 3 : selected = null">
+                                                <div class="flex items-center justify-between">
+                                                    <span>03 What is hair transplant?</span>
+                                                    <span
+                                                        x-bind:style="selected == 3 ? 'display:none': 'display:block'">
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M17 12C17 12.2652 16.8946 12.5196 16.7071 12.7071C16.5196 12.8946 16.2652 13 16 13H13V16C13 16.2652 12.8946 16.5196 12.7071 16.7071C12.5196 16.8946 12.2652 17 12 17C11.7348 17 11.4804 16.8946 11.2929 16.7071C11.1054 16.5196 11 16.2652 11 16V13H8C7.73478 13 7.48043 12.8946 7.29289 12.7071C7.10536 12.5196 7 12.2652 7 12C7 11.7348 7.10536 11.4804 7.29289 11.2929C7.48043 11.1054 7.73478 11 8 11H11V8C11 7.73478 11.1054 7.48043 11.2929 7.29289C11.4804 7.10536 11.7348 7 12 7C12.2652 7 12.5196 7.10536 12.7071 7.29289C12.8946 7.48043 13 7.73478 13 8V11H16C16.2652 11 16.5196 11.1054 16.7071 11.2929C16.8946 11.4804 17 11.7348 17 12ZM24 5V19C24 21.757 21.757 24 19 24H5C2.243 24 0 21.757 0 19V5C0 2.243 2.243 0 5 0H19C21.757 0 24 2.243 24 5ZM22 5C22 3.346 20.654 2 19 2H5C3.346 2 2 3.346 2 5V19C2 20.654 3.346 22 5 22H19C20.654 22 22 20.654 22 19V5Z"
+                                                                fill="black" />
+                                                        </svg>
+                                                    </span>
+                                                    <span
+                                                        x-bind:style="selected == 3 ? 'display:block': 'display:none'">
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                            xmlns="http://www.w3.org/2000/svg">
+                                                            <path
+                                                                d="M17 12C17 12.2652 16.8946 12.5196 16.7071 12.7071C16.5196 12.8946 16.2652 13 16 13H8C7.73478 13 7.48043 12.8946 7.29289 12.7071C7.10536 12.5196 7 12.2652 7 12C7 11.7348 7.10536 11.4804 7.29289 11.2929C7.48043 11.1054 7.73478 11 8 11H16C16.2652 11 16.5196 11.1054 16.7071 11.2929C16.8946 11.4804 17 11.7348 17 12ZM24 5V19C24 21.757 21.757 24 19 24H5C2.243 24 0 21.757 0 19V5C0 2.243 2.243 0 5 0H19C21.757 0 24 2.243 24 5ZM22 5C22 3.346 20.654 2 19 2H5C3.346 2 2 3.346 2 5V19C2 20.654 3.346 22 5 22H19C20.654 22 22 20.654 22 19V12V5Z"
+                                                                fill="#252525" />
+                                                        </svg>
+                                                    </span>
+                                                </div>
+                                            </button>
+                                            <div class="relative overflow-hidden transition-all max-h-0 duration-700"
+                                                x-ref="container1"
+                                                x-bind:style="selected == 3 ? 'max-height: ' + $refs.container1.scrollHeight + 'px' : ''">
+                                                <div class="p-6 border-t border-dark border-opacity-20">
+                                                    <p>
+                                                        Podcasting operational change management inside of workflows to
+                                                        establish a framework. Taking seamless key performance
+                                                        indicators
+                                                        offline to maximise the long tail.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:w-6/12 xl:w-5/12 3xl:w-4/12">
+                        <div class="sticky top-0 3xl:py-[100px]">
+                            <div class="bg-black text-white flex flex-wrap gap-y-3 justify-between p-[15px] mb-5">
+                                <span class="text-sm font-semibold uppercase">Book Free Consultation</span>
+                                <div class="flex flex-wrap items-center text-xs gap-2">
+                                    <span>Call us on:</span>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_62_1456)">
+                                            <path
+                                                d="M9.4668 10.8407C7.52572 10.0188 5.98217 8.47164 5.1648 6.52867L7.43146 4.258L3.25813 0.0813333L1.14413 2.19467C0.777464 2.56343 0.487562 3.00124 0.291196 3.48277C0.0948312 3.9643 -0.00409881 4.47999 0.000130068 5C0.000130068 9.832 6.16813 16 11.0001 16C11.5201 16.0045 12.0358 15.9058 12.5172 15.7094C12.9987 15.513 13.4364 15.2229 13.8048 14.856L15.9188 12.742L11.7421 8.56533L9.4668 10.8407ZM12.8615 13.9133C12.6166 14.156 12.326 14.3476 12.0065 14.4769C11.6869 14.6063 11.3448 14.6708 11.0001 14.6667C6.8448 14.6667 1.33346 9.15533 1.33346 5C1.32954 4.65522 1.39411 4.31309 1.52342 3.99346C1.65274 3.67383 1.84423 3.38305 2.0868 3.138L3.25813 1.96667L5.54946 4.258L3.5928 6.21467L3.75613 6.624C4.23696 7.91021 4.98864 9.07804 5.96023 10.0484C6.93182 11.0187 8.10063 11.7688 9.38746 12.248L9.79146 12.402L11.7421 10.4507L14.0335 12.742L12.8615 13.9133ZM9.33346 1.33333V0C11.101 0.00194106 12.7955 0.704943 14.0454 1.95477C15.2952 3.20459 15.9982 4.89915 16.0001 6.66667H14.6668C14.6652 5.25267 14.1028 3.89703 13.1029 2.89718C12.1031 1.89733 10.7475 1.33492 9.33346 1.33333ZM9.33346 4V2.66667C10.394 2.66773 11.4108 3.08949 12.1607 3.83941C12.9106 4.58933 13.3324 5.60613 13.3335 6.66667H12.0001C12.0001 5.95942 11.7192 5.28115 11.2191 4.78105C10.719 4.28095 10.0407 4 9.33346 4Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_62_1456">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+
+                                    <span>+91-1800-123-4567</span>
+                                </div>
+                            </div>
+                            <div class="border p-5 border-dark border-opacity-20">
+                                <div class="bg-light p-3 sm:p-10 mb-[30px]">
+                                    <h3 class="text-2xl font-medium mb-5">Other Services</h3>
+                                    <ul class="flex flex-col gap-y-[10px]">
+                                        <li
+                                            class="flex items-center justify-between p-[15px] bg-white hover:bg-black hover:text-white transition-colors">
+                                            <span class="text-[15px] font-[prompt]">Laser Hair Removal</span>
+                                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.2667 4.25837L16.0417 1.00004C15.9642 0.921932 15.872 0.859936 15.7705 0.817629C15.6689 0.775322 15.56 0.75354 15.45 0.75354C15.34 0.75354 15.2311 0.775322 15.1295 0.817629C15.028 0.859936 14.9358 0.921932 14.8583 1.00004C14.7031 1.15617 14.616 1.36738 14.616 1.58754C14.616 1.80769 14.7031 2.0189 14.8583 2.17504L17.825 5.16671H0.833333C0.61232 5.16671 0.400358 5.2545 0.244078 5.41078C0.0877974 5.56706 0 5.77903 0 6.00004C0 6.22105 0.0877974 6.43301 0.244078 6.58929C0.400358 6.74557 0.61232 6.83337 0.833333 6.83337H17.875L14.8583 9.84171C14.7802 9.91918 14.7182 10.0113 14.6759 10.1129C14.6336 10.2144 14.6118 10.3234 14.6118 10.4334C14.6118 10.5434 14.6336 10.6523 14.6759 10.7539C14.7182 10.8554 14.7802 10.9476 14.8583 11.025C14.9358 11.1031 15.028 11.1651 15.1295 11.2074C15.2311 11.2498 15.34 11.2715 15.45 11.2715C15.56 11.2715 15.6689 11.2498 15.7705 11.2074C15.872 11.1651 15.9642 11.1031 16.0417 11.025L19.2667 7.79171C19.7348 7.32295 19.9978 6.68754 19.9978 6.02504C19.9978 5.36254 19.7348 4.72712 19.2667 4.25837Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class="flex items-center justify-between p-[15px] bg-white hover:bg-black hover:text-white transition-colors">
+                                            <span class="text-[15px] font-[prompt]">Hair Transplant</span>
+                                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.2667 4.25837L16.0417 1.00004C15.9642 0.921932 15.872 0.859936 15.7705 0.817629C15.6689 0.775322 15.56 0.75354 15.45 0.75354C15.34 0.75354 15.2311 0.775322 15.1295 0.817629C15.028 0.859936 14.9358 0.921932 14.8583 1.00004C14.7031 1.15617 14.616 1.36738 14.616 1.58754C14.616 1.80769 14.7031 2.0189 14.8583 2.17504L17.825 5.16671H0.833333C0.61232 5.16671 0.400358 5.2545 0.244078 5.41078C0.0877974 5.56706 0 5.77903 0 6.00004C0 6.22105 0.0877974 6.43301 0.244078 6.58929C0.400358 6.74557 0.61232 6.83337 0.833333 6.83337H17.875L14.8583 9.84171C14.7802 9.91918 14.7182 10.0113 14.6759 10.1129C14.6336 10.2144 14.6118 10.3234 14.6118 10.4334C14.6118 10.5434 14.6336 10.6523 14.6759 10.7539C14.7182 10.8554 14.7802 10.9476 14.8583 11.025C14.9358 11.1031 15.028 11.1651 15.1295 11.2074C15.2311 11.2498 15.34 11.2715 15.45 11.2715C15.56 11.2715 15.6689 11.2498 15.7705 11.2074C15.872 11.1651 15.9642 11.1031 16.0417 11.025L19.2667 7.79171C19.7348 7.32295 19.9978 6.68754 19.9978 6.02504C19.9978 5.36254 19.7348 4.72712 19.2667 4.25837Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class="flex items-center justify-between p-[15px] bg-white hover:bg-black hover:text-white transition-colors">
+                                            <span class="text-[15px] font-[prompt]">Hair Resolution</span>
+                                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.2667 4.25837L16.0417 1.00004C15.9642 0.921932 15.872 0.859936 15.7705 0.817629C15.6689 0.775322 15.56 0.75354 15.45 0.75354C15.34 0.75354 15.2311 0.775322 15.1295 0.817629C15.028 0.859936 14.9358 0.921932 14.8583 1.00004C14.7031 1.15617 14.616 1.36738 14.616 1.58754C14.616 1.80769 14.7031 2.0189 14.8583 2.17504L17.825 5.16671H0.833333C0.61232 5.16671 0.400358 5.2545 0.244078 5.41078C0.0877974 5.56706 0 5.77903 0 6.00004C0 6.22105 0.0877974 6.43301 0.244078 6.58929C0.400358 6.74557 0.61232 6.83337 0.833333 6.83337H17.875L14.8583 9.84171C14.7802 9.91918 14.7182 10.0113 14.6759 10.1129C14.6336 10.2144 14.6118 10.3234 14.6118 10.4334C14.6118 10.5434 14.6336 10.6523 14.6759 10.7539C14.7182 10.8554 14.7802 10.9476 14.8583 11.025C14.9358 11.1031 15.028 11.1651 15.1295 11.2074C15.2311 11.2498 15.34 11.2715 15.45 11.2715C15.56 11.2715 15.6689 11.2498 15.7705 11.2074C15.872 11.1651 15.9642 11.1031 16.0417 11.025L19.2667 7.79171C19.7348 7.32295 19.9978 6.68754 19.9978 6.02504C19.9978 5.36254 19.7348 4.72712 19.2667 4.25837Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </li>
+                                        <li
+                                            class="flex items-center justify-between p-[15px] bg-white hover:bg-black hover:text-white transition-colors">
+                                            <span class="text-[15px] font-[prompt]">Hair PRP Treatment</span>
+                                            <svg width="20" height="12" viewBox="0 0 20 12" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M19.2667 4.25837L16.0417 1.00004C15.9642 0.921932 15.872 0.859936 15.7705 0.817629C15.6689 0.775322 15.56 0.75354 15.45 0.75354C15.34 0.75354 15.2311 0.775322 15.1295 0.817629C15.028 0.859936 14.9358 0.921932 14.8583 1.00004C14.7031 1.15617 14.616 1.36738 14.616 1.58754C14.616 1.80769 14.7031 2.0189 14.8583 2.17504L17.825 5.16671H0.833333C0.61232 5.16671 0.400358 5.2545 0.244078 5.41078C0.0877974 5.56706 0 5.77903 0 6.00004C0 6.22105 0.0877974 6.43301 0.244078 6.58929C0.400358 6.74557 0.61232 6.83337 0.833333 6.83337H17.875L14.8583 9.84171C14.7802 9.91918 14.7182 10.0113 14.6759 10.1129C14.6336 10.2144 14.6118 10.3234 14.6118 10.4334C14.6118 10.5434 14.6336 10.6523 14.6759 10.7539C14.7182 10.8554 14.7802 10.9476 14.8583 11.025C14.9358 11.1031 15.028 11.1651 15.1295 11.2074C15.2311 11.2498 15.34 11.2715 15.45 11.2715C15.56 11.2715 15.6689 11.2498 15.7705 11.2074C15.872 11.1651 15.9642 11.1031 16.0417 11.025L19.2667 7.79171C19.7348 7.32295 19.9978 6.68754 19.9978 6.02504C19.9978 5.36254 19.7348 4.72712 19.2667 4.25837Z"
+                                                    fill="black" />
+                                            </svg>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="bg-light flex flex-col sm:flex-row gap-y-3 items-center">
+                                    <div class="p-3 sm:p-10 pr-0">
+                                        <h3 class="text-2xl mb-[30px]">Do you have a Hair releted Issues?</h3>
+                                        <button
+                                            class="bg-black text-white py-3 leading-6 px-7 border uppercase border-black text-sm font-semibold">
+                                            find solutions
+                                        </button>
+                                    </div>
+                                    <div>
+                                        <img src="assets/images/doc2.png" alt="Doctor">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-black text-white py-16">
+            <div class="container">
+                <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center">
+                    <div>
+                        <h2 class="text-6xl font-semibold mb-3">475+</h2>
+                        <p class="text-xl">Eliquam magna</p>
+                    </div>
+                    <div>
+                        <h2 class="text-6xl font-semibold mb-3">285+</h2>
+                        <p class="text-xl">Eliquam magna</p>
+                    </div>
+                    <div>
+                        <h2 class="text-6xl font-semibold mb-3">75+</h2>
+                        <p class="text-xl">Eliquam magna</p>
+                    </div>
+                    <div>
+                        <h2 class="text-6xl font-semibold mb-3">1275+</h2>
+                        <p class="text-xl">Eliquam magna</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-texture bg-props py-[100px]">
+            <div class="container">
+                <div class="flex flex-col items-center gap-5 mb-12">
+                    <span class="bg-black bg-opacity-10 px-5 py-2 text-xl inline-block">
+                        Our Team
+                    </span>
+                    <h2 class="text-3xl lg:text-4xl 3xl:text-5xl font-semibold uppercase">
+                        Meet our doctors
+                    </h2>
+                </div>
+                <div class="swiper TeamSwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="bg-light flex flex-col md:flex-row items-center">
+                                <div class="mt-auto md:w-5/12"><img src="assets/images/doc1.png" alt="Doctor Image">
+                                </div>
+                                <div class="2xl:py-14 p-4 2xl:px-9 md:w-7/12">
+                                    <h2 class="text-dark text-opacity-50 text-lg mb-1">Dermenologist</h2>
+                                    <h3 class="text-2xl font-medium mb-2">Mathew Wade - MD</h3>
+                                    <p class="text-xs text-dark text-opacity-50 mb-5">Qurabitur suscipit nulla neque, ut
+                                        laor eet erat sodales vel. Curabitur vitae
+                                        tortor eu felis scelerisque varius a non.</p>
+                                    <div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_303_1230)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                        fill="#252525" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1248 19.6559 14.7346C19.6559 17.1248 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86291C18.5733 5.86291 16.2113 3.50088 16.2113 0.576447C16.2113 3.50088 13.8492 5.86291 10.9248 5.86291C13.8492 5.86291 16.2113 8.22495 16.2113 11.1494C16.2113 8.22495 18.5733 5.86291 21.4977 5.86291Z"
+                                                        fill="#252525" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_303_1230">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg><span>Skin Specialist</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_303_1230)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                        fill="#252525" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1248 19.6559 14.7346C19.6559 17.1248 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86291C18.5733 5.86291 16.2113 3.50088 16.2113 0.576447C16.2113 3.50088 13.8492 5.86291 10.9248 5.86291C13.8492 5.86291 16.2113 8.22495 16.2113 11.1494C16.2113 8.22495 18.5733 5.86291 21.4977 5.86291Z"
+                                                        fill="#252525" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_303_1230">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg><span>Plastic Sergon</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex mt-16 mb-8 gap-6">
+                                        <div><img src="assets/images/uni1.png" alt="University Logo"></div>
+                                        <div><img src="assets/images/uni2.png" alt="University Logo"></div>
+                                    </div>
+                                    <div>
+                                        <button
+                                            class="bg-black text-white fs-sm font-semibold py-3 px-5 border border-black uppercase">Free
+                                            Consultation</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-light flex flex-col md:flex-row items-center">
+                                <div class="mt-auto md:w-5/12"><img src="assets/images/doc2.png" alt="Doctor Image">
+                                </div>
+                                <div class="2xl:py-14 p-4 2xl:px-9 md:w-7/12">
+                                    <h2 class="text-dark text-opacity-50 text-lg mb-1">Dermenologist</h2>
+                                    <h3 class="text-2xl font-medium mb-2">Mathew Wade - MD</h3>
+                                    <p class="text-xs text-dark text-opacity-50 mb-5">Qurabitur suscipit nulla neque, ut
+                                        laor eet erat sodales vel. Curabitur vitae
+                                        tortor eu felis scelerisque varius a non.</p>
+                                    <div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_303_1230)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                        fill="#252525" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1248 19.6559 14.7346C19.6559 17.1248 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86291C18.5733 5.86291 16.2113 3.50088 16.2113 0.576447C16.2113 3.50088 13.8492 5.86291 10.9248 5.86291C13.8492 5.86291 16.2113 8.22495 16.2113 11.1494C16.2113 8.22495 18.5733 5.86291 21.4977 5.86291Z"
+                                                        fill="#252525" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_303_1230">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg><span>Skin Specialist</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_303_1230)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                        fill="#252525" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1248 19.6559 14.7346C19.6559 17.1248 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86291C18.5733 5.86291 16.2113 3.50088 16.2113 0.576447C16.2113 3.50088 13.8492 5.86291 10.9248 5.86291C13.8492 5.86291 16.2113 8.22495 16.2113 11.1494C16.2113 8.22495 18.5733 5.86291 21.4977 5.86291Z"
+                                                        fill="#252525" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_303_1230">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg><span>Plastic Sergon</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex mt-16 mb-8 gap-6">
+                                        <div><img src="assets/images/uni1.png" alt="University Logo"></div>
+                                        <div><img src="assets/images/uni2.png" alt="University Logo"></div>
+                                    </div>
+                                    <div>
+                                        <button
+                                            class="bg-black text-white fs-sm font-semibold py-3 px-5 border border-black uppercase">Free
+                                            Consultation</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-light flex flex-col md:flex-row items-center">
+                                <div class="mt-auto md:w-5/12"><img src="assets/images/doc1.png" alt="Doctor Image">
+                                </div>
+                                <div class="2xl:py-14 p-4 2xl:px-9 md:w-7/12">
+                                    <h2 class="text-dark text-opacity-50 text-lg mb-1">Dermenologist</h2>
+                                    <h3 class="text-2xl font-medium mb-2">Mathew Wade - MD</h3>
+                                    <p class="text-xs text-dark text-opacity-50 mb-5">Qurabitur suscipit nulla neque, ut
+                                        laor eet erat sodales vel. Curabitur vitae
+                                        tortor eu felis scelerisque varius a non.</p>
+                                    <div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_303_1230)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                        fill="#252525" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1248 19.6559 14.7346C19.6559 17.1248 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86291C18.5733 5.86291 16.2113 3.50088 16.2113 0.576447C16.2113 3.50088 13.8492 5.86291 10.9248 5.86291C13.8492 5.86291 16.2113 8.22495 16.2113 11.1494C16.2113 8.22495 18.5733 5.86291 21.4977 5.86291Z"
+                                                        fill="#252525" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_303_1230">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg><span>Skin Specialist</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_303_1230)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                        fill="#252525" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1248 19.6559 14.7346C19.6559 17.1248 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86291C18.5733 5.86291 16.2113 3.50088 16.2113 0.576447C16.2113 3.50088 13.8492 5.86291 10.9248 5.86291C13.8492 5.86291 16.2113 8.22495 16.2113 11.1494C16.2113 8.22495 18.5733 5.86291 21.4977 5.86291Z"
+                                                        fill="#252525" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_303_1230">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg><span>Plastic Sergon</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex mt-16 mb-8 gap-6">
+                                        <div><img src="assets/images/uni1.png" alt="University Logo"></div>
+                                        <div><img src="assets/images/uni2.png" alt="University Logo"></div>
+                                    </div>
+                                    <div>
+                                        <button
+                                            class="bg-black text-white fs-sm font-semibold py-3 px-5 border border-black uppercase">Free
+                                            Consultation</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="bg-light flex flex-col md:flex-row items-center">
+                                <div class="mt-auto md:w-5/12"><img src="assets/images/doc2.png" alt="Doctor Image">
+                                </div>
+                                <div class="2xl:py-14 p-4 2xl:px-9 md:w-7/12">
+                                    <h2 class="text-dark text-opacity-50 text-lg mb-1">Dermenologist</h2>
+                                    <h3 class="text-2xl font-medium mb-2">Mathew Wade - MD</h3>
+                                    <p class="text-xs text-dark text-opacity-50 mb-5">Qurabitur suscipit nulla neque, ut
+                                        laor eet erat sodales vel. Curabitur vitae
+                                        tortor eu felis scelerisque varius a non.</p>
+                                    <div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_303_1230)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                        fill="#252525" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1248 19.6559 14.7346C19.6559 17.1248 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86291C18.5733 5.86291 16.2113 3.50088 16.2113 0.576447C16.2113 3.50088 13.8492 5.86291 10.9248 5.86291C13.8492 5.86291 16.2113 8.22495 16.2113 11.1494C16.2113 8.22495 18.5733 5.86291 21.4977 5.86291Z"
+                                                        fill="#252525" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_303_1230">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg><span>Skin Specialist</span>
+                                        </div>
+                                        <div class="flex items-center gap-3">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_303_1230)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M15.8594 14.9877C11.4728 14.9877 7.9297 11.4306 7.9297 7.05798C7.9297 11.4306 4.37258 14.9877 0 14.9877C4.37258 14.9877 7.9297 18.5307 7.9297 22.9033C7.9297 18.5307 11.4728 14.9877 15.8594 14.9877Z"
+                                                        fill="#252525" />
+                                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                                        d="M24.0004 19.0791C21.5962 19.0791 19.6559 17.1248 19.6559 14.7346C19.6559 17.1248 17.7016 19.0791 15.3114 19.0791C17.7016 19.0791 19.6559 21.0193 19.6559 23.4235C19.6559 21.0193 21.5962 19.0791 24.0004 19.0791ZM21.4977 5.86291C18.5733 5.86291 16.2113 3.50088 16.2113 0.576447C16.2113 3.50088 13.8492 5.86291 10.9248 5.86291C13.8492 5.86291 16.2113 8.22495 16.2113 11.1494C16.2113 8.22495 18.5733 5.86291 21.4977 5.86291Z"
+                                                        fill="#252525" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_303_1230">
+                                                        <rect width="24" height="24" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg><span>Plastic Sergon</span>
+                                        </div>
+                                    </div>
+                                    <div class="flex mt-16 mb-8 gap-6">
+                                        <div><img src="assets/images/uni1.png" alt="University Logo"></div>
+                                        <div><img src="assets/images/uni2.png" alt="University Logo"></div>
+                                    </div>
+                                    <div>
+                                        <button
+                                            class="bg-black text-white fs-sm font-semibold py-3 px-5 border border-black uppercase">Free
+                                            Consultation</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light py-[100px]">
+            <div class="container">
+                <div class="text-center">
+                    <span class="bg-black bg-opacity-10 px-3 py-2 text-xl inline-block mb-4">
+                        About Us
+                    </span>
+                    <h2 class="text-3xl lg:text-4xl 3xl:text-5xl font-semibold uppercase mb-12">
+                        WHAT WE OFFER
+                    </h2>
+                </div>
+                <div class="grid sm:grid-cols-2 xl:grid-cols-4 gap-[30px]">
+                    <a href="blog-details.html" class="relative">
+                        <img src="assets/images/service1.png" alt="Service Image" width="100%">
+                        <div class="absolute lg:p-4 xl:p-0 2xl:p-4 bottom-0 w-full">
+                            <h3 class="bg-white p-4 text-xl font-medium text-center">
+                                Hair Transplant
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="blog-details.html" class="relative">
+                        <img src="assets/images/service2.png" alt="Service Image" width="100%">
+                        <div class="absolute lg:p-4 xl:p-0 2xl:p-4 bottom-0 w-full">
+                            <h3 class="bg-white p-4 text-xl font-medium text-center">
+                                Laser Hair Treatment
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="blog-details.html" class="relative">
+                        <img src="assets/images/service3.png" alt="Service Image" width="100%">
+                        <div class="absolute lg:p-4 xl:p-0 2xl:p-4 bottom-0 w-full">
+                            <h3 class="bg-white p-4 text-xl font-medium text-center">
+                                Hair Resolution
+                            </h3>
+                        </div>
+                    </a>
+                    <a href="blog-details.html" class="relative">
+                        <img src="assets/images/service4.png" alt="Service Image" width="100%">
+                        <div class="absolute lg:p-4 xl:p-0 2xl:p-4 bottom-0 w-full">
+                            <h3 class="bg-white p-4 text-xl font-medium text-center">
+                                Hair PRP Treatment
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="bg-texture bg-props py-[100px]">
+            <div class="container">
+                <div class="flex flex-col lg:flex-row gap-y-10 items-center justify-between">
+                    <div class="w-full lg:w-6/12 3xl:w-5/12">
+                        <div class="swiper TestimonialSwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide py-7 px-4 sm:p-7">
+                                    <div>
+                                        <img src="assets/images/quote.png" class="mx-auto" alt="Quote">
+                                    </div>
+                                    <div class="bg-white shadow-1 flex flex-col gap-4 p-[30px] relative z-10">
+                                        <div>
+                                            <img src="assets/images/dp1.png" alt="DP">
+                                        </div>
+                                        <p class="text-dark text-opacity-50">Eliquam magna massa, gravida finibus
+                                            fermentum sit amet
+                                            Suspendisse consequat lacus
+                                            libero. In ultricies gravida Maecenas nec erat sit amet eros venenatis
+                                            ultricies.
+                                        </p>
+                                        <div class="flex">
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" fill-opacity="0.3" />
+                                            </svg>
+                                        </div>
+                                        <p>Jhone Moarcus</p>
+                                    </div>
+                                    <div class="px-5 bg-white">
+                                        <div class="shadow-1 h-5"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-7 px-4 sm:p-7">
+                                    <div>
+                                        <img src="assets/images/quote.png" class="mx-auto" alt="Quote">
+                                    </div>
+                                    <div class="bg-white shadow-1 flex flex-col gap-4 p-[30px] relative z-10">
+                                        <div>
+                                            <img src="assets/images/dp1.png" alt="DP">
+                                        </div>
+                                        <p class="text-dark text-opacity-50">Eliquam magna massa, gravida finibus
+                                            fermentum sit amet
+                                            Suspendisse consequat lacus
+                                            libero. In ultricies gravida Maecenas nec erat sit amet eros venenatis
+                                            ultricies.
+                                        </p>
+                                        <div class="flex">
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" fill-opacity="0.3" />
+                                            </svg>
+                                        </div>
+                                        <p>Jhone Moarcus</p>
+                                    </div>
+                                    <div class="px-5 bg-white">
+                                        <div class="shadow-1 h-5"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-7 px-4 sm:p-7">
+                                    <div>
+                                        <img src="assets/images/quote.png" class="mx-auto" alt="Quote">
+                                    </div>
+                                    <div class="bg-white shadow-1 flex flex-col gap-4 p-[30px] relative z-10">
+                                        <div>
+                                            <img src="assets/images/dp1.png" alt="DP">
+                                        </div>
+                                        <p class="text-dark text-opacity-50">Eliquam magna massa, gravida finibus
+                                            fermentum sit amet
+                                            Suspendisse consequat lacus
+                                            libero. In ultricies gravida Maecenas nec erat sit amet eros venenatis
+                                            ultricies.
+                                        </p>
+                                        <div class="flex">
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" fill-opacity="0.3" />
+                                            </svg>
+                                        </div>
+                                        <p>Jhone Moarcus</p>
+                                    </div>
+                                    <div class="px-5 bg-white">
+                                        <div class="shadow-1 h-5"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-7 px-4 sm:p-7">
+                                    <div>
+                                        <img src="assets/images/quote.png" class="mx-auto" alt="Quote">
+                                    </div>
+                                    <div class="bg-white shadow-1 flex flex-col gap-4 p-[30px] relative z-10">
+                                        <div>
+                                            <img src="assets/images/dp1.png" alt="DP">
+                                        </div>
+                                        <p class="text-dark text-opacity-50">Eliquam magna massa, gravida finibus
+                                            fermentum sit amet
+                                            Suspendisse consequat lacus
+                                            libero. In ultricies gravida Maecenas nec erat sit amet eros venenatis
+                                            ultricies.
+                                        </p>
+                                        <div class="flex">
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" fill-opacity="0.3" />
+                                            </svg>
+                                        </div>
+                                        <p>Jhone Moarcus</p>
+                                    </div>
+                                    <div class="px-5 bg-white">
+                                        <div class="shadow-1 h-5"></div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide py-7 px-4 sm:p-7">
+                                    <div>
+                                        <img src="assets/images/quote.png" class="mx-auto" alt="Quote">
+                                    </div>
+                                    <div class="bg-white shadow-1 flex flex-col gap-4 p-[30px] relative z-10">
+                                        <div>
+                                            <img src="assets/images/dp1.png" alt="DP">
+                                        </div>
+                                        <p class="text-dark text-opacity-50">Eliquam magna massa, gravida finibus
+                                            fermentum sit amet
+                                            Suspendisse consequat lacus
+                                            libero. In ultricies gravida Maecenas nec erat sit amet eros venenatis
+                                            ultricies.
+                                        </p>
+                                        <div class="flex">
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" />
+                                            </svg>
+                                            <svg width="24" height="22" viewBox="0 0 24 22" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 0L14.6942 8.2918H23.4127L16.3593 13.4164L19.0534 21.7082L12 16.5836L4.94658 21.7082L7.64074 13.4164L0.587322 8.2918H9.30583L12 0Z"
+                                                    fill="#252525" fill-opacity="0.3" />
+                                            </svg>
+                                        </div>
+                                        <p>Jhone Moarcus</p>
+                                    </div>
+                                    <div class="px-5 bg-white">
+                                        <div class="shadow-1 h-5"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-full lg:w-6/12 flex flex-col items-start gap-5 3xl:pl-5 3xl:w-6/12">
+                        <span class="bg-black bg-opacity-10 px-5 py-2 text-xl inline-block">
+                            Testimonial
+                        </span>
+                        <h2 class="text-3xl lg:text-4xl 3xl:text-5xl font-semibold uppercase">
+                            What customers say about us
+                        </h2>
+                        <p class="text-dark text-opacity-50 text-lg">
+                            Eliquam magna massa, gravida finibus fermentum sit amet Suspendisse consequat lacus libero.
+                            In ultricies gravida Maecenas nec erat sit amet eros venenatis ultricies.
+                        </p>
+                        <div class="flex">
+                            <img src="assets/images/dp5.png" alt="DP">
+                            <img src="assets/images/dp4.png" class="-ml-10" alt="DP">
+                            <img src="assets/images/dp3.png" class="-ml-10" alt="DP">
+                            <img src="assets/images/dp2.png" class="-ml-10" alt="DP">
+                            <img src="assets/images/dp1.png" class="-ml-10" alt="DP">
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <svg width="30" height="28" viewBox="0 0 30 28" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15 0L18.3677 10.3647H29.2658L20.4491 16.7705L23.8168 27.1353L15 20.7295L6.18322 27.1353L9.55093 16.7705L0.734152 10.3647H11.6323L15 0Z"
+                                    fill="#252525" />
+                            </svg>
+                            <span class="font-semibold text-2xl ml-1">5.0</span>
+                            <span class="text-dark text-opacity-50 text-sm">(1000 Review)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black text-white text-opacity-50 pt-24 font-light">
+        <div class="container">
+            <div class="grid 3xl:flex gap-16 mb-12 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5">
+                <div class="3xl:w-4/12">
+                    <a href="index.html">
+                        <img src="assets/images/logo-white.svg" alt="Grow hair" class="mb-5">
+                    </a>
+                    <p>We have over 35 years' experience in hair restoration, 25 clinics globally and have treated over
+                        100,000 satisfied patients.</p>
+                </div>
+                <div class="3xl:w-3/12">
+                    <h3 class="text-white uppercase text-lg mb-12">Contact info</h3>
+                    <ul class="flex flex-col gap-5">
+                        <li>
+                            <a href="#" class="flex items-start gap-3">
+                                <div>
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_258_380)">
+                                            <path
+                                                d="M7.9718 16.0053L7.50709 15.6069C6.86643 15.0705 1.27246 10.2393 1.27246 6.70545C1.27246 3.00551 4.27187 0.00610352 7.9718 0.00610352C11.6717 0.00610352 14.6711 3.00551 14.6711 6.70545C14.6711 10.2394 9.07718 15.0705 8.43918 15.6096L7.9718 16.0053ZM7.9718 1.4547C5.07327 1.45798 2.72437 3.80689 2.72109 6.70542C2.72109 8.92548 6.16271 12.472 7.9718 14.0952C9.78093 12.4713 13.2225 8.92279 13.2225 6.70542C13.2192 3.80689 10.8704 1.45801 7.9718 1.4547Z"
+                                                fill="white" fill-opacity="0.5" />
+                                            <path
+                                                d="M7.97197 9.36093C6.50534 9.36093 5.31641 8.17199 5.31641 6.70537C5.31641 5.23874 6.50534 4.0498 7.97197 4.0498C9.43859 4.0498 10.6275 5.23874 10.6275 6.70537C10.6275 8.17199 9.43862 9.36093 7.97197 9.36093ZM7.97197 5.37755C7.23866 5.37755 6.64419 5.97202 6.64419 6.70534C6.64419 7.43865 7.23866 8.03312 7.97197 8.03312C8.70528 8.03312 9.29975 7.43865 9.29975 6.70534C9.29975 5.97202 8.70531 5.37755 7.97197 5.37755Z"
+                                                fill="white" fill-opacity="0.5" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_258_380">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </div>
+                                <span>9897 St Vincet place, Glasgow, 25103</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+91-1800-123-4567" class="flex items-center gap-3">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_258_386)">
+                                        <path
+                                            d="M9.4668 10.8407C7.52572 10.0188 5.98217 8.47164 5.1648 6.52867L7.43146 4.258L3.25813 0.0813333L1.14413 2.19467C0.777464 2.56343 0.487562 3.00124 0.291196 3.48277C0.0948312 3.9643 -0.00409881 4.47999 0.000130068 5C0.000130068 9.832 6.16813 16 11.0001 16C11.5201 16.0045 12.0358 15.9058 12.5172 15.7094C12.9987 15.513 13.4364 15.2229 13.8048 14.856L15.9188 12.742L11.7421 8.56533L9.4668 10.8407ZM12.8615 13.9133C12.6166 14.156 12.326 14.3476 12.0065 14.4769C11.6869 14.6063 11.3448 14.6708 11.0001 14.6667C6.8448 14.6667 1.33346 9.15533 1.33346 5C1.32954 4.65522 1.39411 4.31309 1.52342 3.99346C1.65274 3.67383 1.84423 3.38305 2.0868 3.138L3.25813 1.96667L5.54946 4.258L3.5928 6.21467L3.75613 6.624C4.23696 7.91021 4.98864 9.07804 5.96023 10.0484C6.93182 11.0187 8.10063 11.7688 9.38746 12.248L9.79146 12.402L11.7421 10.4507L14.0335 12.742L12.8615 13.9133ZM9.33346 1.33333V0C11.101 0.00194106 12.7955 0.704943 14.0454 1.95477C15.2952 3.20459 15.9982 4.89915 16.0001 6.66667H14.6668C14.6652 5.25267 14.1028 3.89703 13.1029 2.89718C12.1031 1.89733 10.7475 1.33492 9.33346 1.33333ZM9.33346 4V2.66667C10.394 2.66773 11.4108 3.08949 12.1607 3.83941C12.9106 4.58933 13.3324 5.60613 13.3335 6.66667H12.0001C12.0001 5.95942 11.7192 5.28115 11.2191 4.78105C10.719 4.28095 10.0407 4 9.33346 4Z"
+                                            fill="white" fill-opacity="0.5" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_258_386">
+                                            <rect width="16" height="16" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <span>+91-1800-123-4567</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@growhair.com" class="flex items-center gap-3">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.6667 0.666748H3.33333C2.4496 0.667807 1.60237 1.01934 0.97748 1.64423C0.352588 2.26912 0.00105857 3.11635 0 4.00008L0 12.0001C0.00105857 12.8838 0.352588 13.731 0.97748 14.3559C1.60237 14.9808 2.4496 15.3324 3.33333 15.3334H12.6667C13.5504 15.3324 14.3976 14.9808 15.0225 14.3559C15.6474 13.731 15.9989 12.8838 16 12.0001V4.00008C15.9989 3.11635 15.6474 2.26912 15.0225 1.64423C14.3976 1.01934 13.5504 0.667807 12.6667 0.666748ZM3.33333 2.00008H12.6667C13.0659 2.00087 13.4557 2.12109 13.786 2.34528C14.1163 2.56948 14.3719 2.88738 14.52 3.25808L9.41467 8.36408C9.03895 8.73829 8.53028 8.94839 8 8.94839C7.46972 8.94839 6.96105 8.73829 6.58533 8.36408L1.48 3.25808C1.6281 2.88738 1.88374 2.56948 2.21403 2.34528C2.54432 2.12109 2.93414 2.00087 3.33333 2.00008ZM12.6667 14.0001H3.33333C2.8029 14.0001 2.29419 13.7894 1.91912 13.4143C1.54405 13.0392 1.33333 12.5305 1.33333 12.0001V5.00008L5.64267 9.30675C6.26842 9.93092 7.11617 10.2814 8 10.2814C8.88383 10.2814 9.73158 9.93092 10.3573 9.30675L14.6667 5.00008V12.0001C14.6667 12.5305 14.456 13.0392 14.0809 13.4143C13.7058 13.7894 13.1971 14.0001 12.6667 14.0001Z"
+                                        fill="white" fill-opacity="0.5" />
+                                </svg>
+                                <span>info@growhair.com</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="3xl:w-2/12">
+                    <h3 class="text-white uppercase text-lg mb-12">quick links</h3>
+                    <ul class="flex flex-col gap-5">
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="3xl:w-3/12">
+                    <h3 class="text-white uppercase text-lg mb-12">clinic locations</h3>
+                    <ul class="flex flex-col gap-5">
+                        <li><a href="#">Manhattab</a></li>
+                        <li><a href="#">Chicago</a></li>
+                        <li><a href="#">New York</a></li>
+                        <li><a href="#">Rosewille</a></li>
+                    </ul>
+                </div>
+                <div class="3xl:w-5/12">
+                    <h3 class="text-white uppercase text-lg mb-12">Contact info</h3>
+                    <p class="text-sm mb-3">Sign up for Newsletter to know updates from here...</p>
+                    <form>
+                        <label for="subscribe"
+                            class="flex items-center gap-3 border border-opacity-50 bg-white bg-opacity-30 p-3 px-4 mb-5">
+                            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M14.25 0.75H3.75C2.7558 0.751191 1.80267 1.14666 1.09966 1.84966C0.396661 2.55267 0.00119089 3.5058 0 4.5L0 13.5C0.00119089 14.4942 0.396661 15.4473 1.09966 16.1503C1.80267 16.8533 2.7558 17.2488 3.75 17.25H14.25C15.2442 17.2488 16.1973 16.8533 16.9003 16.1503C17.6033 15.4473 17.9988 14.4942 18 13.5V4.5C17.9988 3.5058 17.6033 2.55267 16.9003 1.84966C16.1973 1.14666 15.2442 0.751191 14.25 0.75ZM3.75 2.25H14.25C14.6991 2.25088 15.1376 2.38614 15.5092 2.63835C15.8808 2.89057 16.1684 3.24821 16.335 3.66525L10.5915 9.4095C10.1688 9.83049 9.59656 10.0669 9 10.0669C8.40344 10.0669 7.83118 9.83049 7.4085 9.4095L1.665 3.66525C1.83161 3.24821 2.11921 2.89057 2.49079 2.63835C2.86236 2.38614 3.30091 2.25088 3.75 2.25ZM14.25 15.75H3.75C3.15326 15.75 2.58097 15.5129 2.15901 15.091C1.73705 14.669 1.5 14.0967 1.5 13.5V5.625L6.348 10.47C7.05197 11.1722 8.00569 11.5665 9 11.5665C9.99431 11.5665 10.948 11.1722 11.652 10.47L16.5 5.625V13.5C16.5 14.0967 16.2629 14.669 15.841 15.091C15.419 15.5129 14.8467 15.75 14.25 15.75Z"
+                                    fill="white" />
+                            </svg>
+                            <input type="email" name="subscribe" id="subscribe" placeholder="Email"
+                                class="bg-transparent w-full outline-none text-white">
+                        </label>
+                        <button type="submit"
+                            class="bg-white text-black p-3 px-6 font-semibold border border-white">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="flex flex-wrap justify-between items-center border-t border-white border-opacity-30 py-5 gap-3">
+                <ul class="flex gap-4 items-center text-lg text-white">
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-google"></i></a></li>
+                </ul>
+                <p class="text-sm"><a href="#">Terms of use</a> | <a href="#">Privacy</a> | <a href="#">Cookie
+                        Policy</a></p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/fancybox.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
